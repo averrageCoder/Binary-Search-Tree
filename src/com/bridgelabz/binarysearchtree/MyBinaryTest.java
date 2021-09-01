@@ -20,5 +20,11 @@ public class MyBinaryTest {
 		
 		int size = myBinaryTree.getSize();
 		System.out.println("Size: "+size);
+		
+		if(myBinaryTree.search(63)) {
+			System.out.println("Element found");
+		}
+		else
+			System.out.println("Element not found");
 	}
 }
